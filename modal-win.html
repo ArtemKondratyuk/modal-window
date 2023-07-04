@@ -1,0 +1,62 @@
+<div class="backdrop is-hidden" data-reweu>
+    <div class="reweu">
+     <button type="button" class="reweu-close" data-reweu-close>
+       <svg class="icon-close" width="14" height="14">
+         <use href="./img/icons.svg#icon-xclose"></use>
+       </svg>
+     </button>
+     <div class="container-reweu">
+       <h1 class="reweu-title">
+         <span class="titel-tab">LEAVE A REVIEW</span> ABOUT
+         <span class="reweu-chenge"> OUR CHOCOLATE</span>
+       </h1>
+       <form class="reweu-form">
+         <div class="reweu-input-field">
+           <input
+             class="input-field"
+              type="text"
+             name="username"
+             placeholder="Name"
+             required
+             pattern="[a-z]{1,15}"
+             title="Username should only contain lowercase letters"
+           />
+         </div>
+         <div class="reweu-input-field">
+           <input
+             class="input-field"
+             type="email"
+             name="user-email"
+             placeholder="Enter you email"
+             required
+             pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
+             title="Email must contain a special character @ , for example name@gmail.com"
+           />
+         </div>
+         <div class="reweu-input-field country">
+           <input
+             class="input-field country number"
+             type="tel"
+             name="user-phone"
+             placeholder="Phone number"
+             required
+             pattern="\d{5}"
+             title="The field must contain a maximum of 9 digits"
+           />
+           <svg class="icon-input" width="24" height="18">
+             <use href="./img/icons.svg#icon-rame"></use>
+           </svg>
+           <p class="code-input reweu-segment">+380</p>
+         </div>
+         <div class="reweu-input-field">
+           <textarea
+             class="input-field reweu-input"
+             name="user-comment"
+             placeholder="Enter text"
+           ></textarea>
+         </div>
+       </form>
+       <button type="submit" class="reweu-button" data-thanks-open>Send</button>
+     </div>
+   </div>
+ </div>
